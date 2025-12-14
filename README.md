@@ -1,13 +1,22 @@
 <!-- Adding Banner -->
 <img src="assets/banner.svg" >
 
-### <div style="color: #58a6ff; align-text: center;"> Indie Full-Stack Web Developer | Tech Enthusiast | Builder </div>
-
-<p>
-    Hi, I'm Danny 
+<!-- Adding Banner -->
+<p align="center">
+  <img src="assets/banner.svg" />
 </p>
 
-<hr/>
+<h3 align="center">
+  <span style="color:#58a6ff;">Indie Full-Stack Web Developer</span> • 
+  <span style="color:#8b949e;">Tech Enthusiast</span> • 
+  <span style="color:#f78166;">Builder</span>
+</h3>
+
+<p align="center">
+  Hi, I'm Danny 👋
+</p>
+
+<hr>
 
 <!--
 **Danyxtu/Danyxtu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
