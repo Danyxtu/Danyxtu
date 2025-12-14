@@ -38,14 +38,6 @@ Currently, I'm diving deep into various projects and honing my skills in web dev
 ![VS Code](https://img.shields.io/badge/VS%20Code-111?style=for-the-badge&logo=visualstudiocode)
 ![Postman](https://img.shields.io/badge/Postman-111?style=for-the-badge&logo=postman)
 
-## Top Projects
-
-- [SATIS-Smart-Academic-Tracking-and-Intervention-System](https://github.com/Danyxtu/SATIS-Smart-Academic-Tracking-and-Intervention-System) - A comprehensive academic tracking system. ⭐ 1 Star | Language: JavaScript
-- [Travel-PlannerPro](https://github.com/Danyxtu/Travel-PlannerPro) - Your personal travel planning assistant. ⭐ 0 Stars | Language: JavaScript
-- [Food-Waste-Analytics](https://github.com/Danyxtu/Food-Waste-Analytics) - Analyzing food waste data for better sustainability practices. ⭐ 0 Stars | Language: Jupyter Notebook
-- [Integrated-Hotel-Booking-and-Reservation-Management-System](https://github.com/Danyxtu/Integrated-Hotel-Booking-and-Reservation-Management-System) - A complete hotel reservation system. ⭐ 0 Stars | Language: JavaScript
-- [Learning-Management-System](https://github.com/Danyxtu/Learning-Management-System) - Creating EducTrack: A Student Information Management System. ⭐ 1 Star | Language: HTML
-
 ## My GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Danyxtu&show_icons=true&theme=radical)
