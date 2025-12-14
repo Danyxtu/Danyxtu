@@ -1,5 +1,5 @@
 <!-- Adding Banner -->
-<!-- <img src="assets/banner.svg" > -->
+<img src="assets/banner.svg" >
 
 <!--
 **Danyxtu/Danyxtu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
