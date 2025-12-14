@@ -1,7 +1,7 @@
 <img src="assets/banner.svg" >
 
 <h3 align="center">
-  • <span style="color:#58a6ff;">Indie Full-Stack Web Developer</span>
+  • <span style="color:#58a6ff;">Full-Stack Web Developer</span>
   • <span style="color:#8b949e;">Tech Enthusiast</span> 
   • <span style="color:#f78166;">Builder</span>
 </h3>
