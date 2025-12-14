@@ -1,6 +1,12 @@
 <!-- Adding Banner -->
 <img src="assets/banner.svg" >
 
+### <span style='color: #58a6ff'> \_Indie Full-Stack Web Developer | \_Tech Enthusiast | \_Builder </span>
+
+<p>
+    Hi, I'm Danny 
+</p>
+
 <hr/>
 
 <!--
