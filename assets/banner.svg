@@ -1,0 +1,150 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <!-- Gradient for background -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Glow effect for code brackets -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bgGradient)"/>
+
+  <!-- Floating code symbols -->
+  <text x="100" y="80" fill="#38bdf8" opacity="0.3" font-size="40" font-family="'Courier New', monospace">
+    &lt;/&gt;
+    <animate attributeName="y" values="80;60;80" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite"/>
+  </text>
+  
+  <text x="1050" y="100" fill="#818cf8" opacity="0.3" font-size="36" font-family="'Courier New', monospace">
+    { }
+    <animate attributeName="y" values="100;120;100" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="4s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="150" y="230" fill="#34d399" opacity="0.3" font-size="32" font-family="'Courier New', monospace">
+    [ ]
+    <animate attributeName="y" values="230;210;230" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.5;0.3" dur="3.5s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="980" y="250" fill="#f472b6" opacity="0.3" font-size="38" font-family="'Courier New', monospace">
+    ( )
+    <animate attributeName="y" values="250;235;250" dur="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.5;0.3" dur="4.5s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Binary code stream background -->
+  <text x="50" y="40" fill="#1e40af" opacity="0.2" font-size="14" font-family="'Courier New', monospace">
+    01001000 01100101 01101100 01101100 01101111
+    <animate attributeName="x" from="50" to="-200" dur="15s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Code brackets with glow -->
+  <text x="280" y="145" fill="#38bdf8" font-size="80" font-family="'Courier New', monospace" filter="url(#glow)">
+    &lt;
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+  </text>
+  
+  <text x="870" y="145" fill="#38bdf8" font-size="80" font-family="'Courier New', monospace" filter="url(#glow)">
+    /&gt;
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Name -->
+  <text x="50%" y="130"
+        fill="#e5e7eb"
+        font-size="64"
+        font-family="'Segoe UI', Arial, sans-serif"
+        text-anchor="middle"
+        font-weight="bold">
+    Danyxtu
+  </text>
+
+  <!-- Subtitle with typing cursor effect -->
+  <text x="50%" y="185"
+        fill="#94a3b8"
+        font-size="28"
+        font-family="'Segoe UI', Arial, sans-serif"
+        text-anchor="middle">
+    Aspiring Full-Stack WebDeveloper
+  </text>
+  
+  <text x="870" y="185"
+        fill="#38bdf8"
+        font-size="28"
+        font-family="'Courier New', monospace">
+    |
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Animated accent bar -->
+  <rect x="0" y="240" width="1200" height="60" fill="#1e293b"/>
+  
+  <rect x="0" y="240" width="0" height="60" fill="#38bdf8">
+    <animate attributeName="width" from="0" to="1200" dur="2s" fill="freeze"/>
+  </rect>
+
+  <!-- Tech stack icons (simplified) -->
+  <g opacity="0.8">
+    <!-- HTML icon -->
+    <rect x="300" y="255" width="30" height="30" fill="#e34c26" rx="3">
+      <animate attributeName="y" values="255;250;255" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="315" y="277" fill="#fff" font-size="18" font-family="Arial" text-anchor="middle" font-weight="bold">H</text>
+    
+    <!-- CSS icon -->
+    <rect x="350" y="255" width="30" height="30" fill="#264de4" rx="3">
+      <animate attributeName="y" values="255;250;255" dur="2s" begin="0.2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="365" y="277" fill="#fff" font-size="18" font-family="Arial" text-anchor="middle" font-weight="bold">C</text>
+    
+    <!-- JS icon -->
+    <rect x="400" y="255" width="30" height="30" fill="#f0db4f" rx="3">
+      <animate attributeName="y" values="255;250;255" dur="2s" begin="0.4s" repeatCount="indefinite"/>
+    </rect>
+    <text x="415" y="277" fill="#323330" font-size="18" font-family="Arial" text-anchor="middle" font-weight="bold">J</text>
+    
+    <!-- React icon (simplified) -->
+    <circle cx="865" cy="270" r="15" fill="#61dafb" opacity="0.9">
+      <animate attributeName="cy" values="270;265;270" dur="2s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+    <ellipse cx="865" cy="270" rx="20" ry="8" fill="none" stroke="#61dafb" stroke-width="2">
+      <animateTransform attributeName="transform" type="rotate" from="0 865 270" to="360 865 270" dur="3s" repeatCount="indefinite"/>
+    </ellipse>
+    
+    <!-- Git icon -->
+    <rect x="820" y="255" width="30" height="30" fill="#f05032" rx="3">
+      <animate attributeName="y" values="255;250;255" dur="2s" begin="0.8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="835" y="277" fill="#fff" font-size="18" font-family="Arial" text-anchor="middle" font-weight="bold">G</text>
+  </g>
+
+  <!-- Pixel particles -->
+  <circle cx="200" cy="150" r="2" fill="#38bdf8">
+    <animate attributeName="cy" values="150;50" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="950" cy="180" r="2" fill="#818cf8">
+    <animate attributeName="cy" values="180;80" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="700" cy="200" r="2" fill="#34d399">
+    <animate attributeName="cy" values="200;100" dur="5.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0" dur="5.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
