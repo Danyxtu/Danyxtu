@@ -1,7 +1,7 @@
 <!-- Adding Banner -->
 <img src="assets/banner.svg" >
 
-### <span style="color: #58a6ff; align-text: center;"> Indie Full-Stack Web Developer | Tech Enthusiast | Builder </span>
+### <div style="color: #58a6ff; align-text: center;"> Indie Full-Stack Web Developer | Tech Enthusiast | Builder </div>
 
 <p>
     Hi, I'm Danny 
