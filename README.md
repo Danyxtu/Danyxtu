@@ -1,11 +1,6 @@
 <!-- Adding Banner -->
 <img src="assets/banner.svg" >
 
-<!-- Adding Banner -->
-<p align="center">
-  <img src="assets/banner.svg" />
-</p>
-
 <h3 align="center">
   <span style="color:#58a6ff;">Indie Full-Stack Web Developer</span> • 
   <span style="color:#8b949e;">Tech Enthusiast</span> • 
