@@ -7,11 +7,13 @@
   • <span style="color:#f78166;">Builder</span>
 </h3>
 
+<p align="center">─────────────────────────────────────────────────────────</p>
+
 <p align="center">
-  Hi , I'm Danny,  
+  Hi, I'm Danny  
 </p>
 
-<hr>
+<p align="center">─────────────────────────────────────────────────────────</p>
 
 <!--
 **Danyxtu/Danyxtu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
