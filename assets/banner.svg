@@ -2,9 +2,9 @@
      xmlns="http://www.w3.org/2000/svg">
 
   <defs>
-    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:0.2" />
     </linearGradient>
     
     <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -16,15 +16,57 @@
   <!-- Background -->
   <rect width="100%" height="100%" fill="url(#bgGradient)"/>
 
-  <!-- Subtle grid pattern -->
-  <g opacity="0.03">
-    <line x1="0" y1="75" x2="1200" y2="75" stroke="#ffffff" stroke-width="1"/>
-    <line x1="0" y1="150" x2="1200" y2="150" stroke="#ffffff" stroke-width="1"/>
-    <line x1="0" y1="225" x2="1200" y2="225" stroke="#ffffff" stroke-width="1"/>
+  <!-- Animated wave pattern -->
+  <g opacity="0.35">
+    <path d="M0,125 Q300,80 600,125 T1200,125" stroke="#3b82f6" stroke-width="3" fill="none">
+      <animate attributeName="d" 
+               values="M0,125 Q300,80 600,125 T1200,125;
+                       M0,125 Q300,170 600,125 T1200,125;
+                       M0,125 Q300,80 600,125 T1200,125"
+               dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0,125 Q300,170 600,125 T1200,125" stroke="#06b6d4" stroke-width="3" fill="none">
+      <animate attributeName="d" 
+               values="M0,125 Q300,170 600,125 T1200,125;
+                       M0,125 Q300,80 600,125 T1200,125;
+                       M0,125 Q300,170 600,125 T1200,125"
+               dur="4s" repeatCount="indefinite"/>
+    </path>
   </g>
 
-  <!-- Left accent bar -->
-  <rect x="0" y="0" width="4" height="300" fill="url(#accentGradient)"/>
+  <!-- Top accent bar with pulse -->
+  <rect x="0" y="0" width="4" height="250" fill="url(#accentGradient)">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Floating geometric decorations -->
+  <g transform="translate(200, 80)" opacity="0.4">
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#3b82f6" stroke-width="2">
+      <animate attributeName="r" values="20;26;20" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.7;0.4" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g transform="translate(500, 120)" opacity="0.45">
+    <rect x="-20" y="-20" width="40" height="40" fill="none" stroke="#06b6d4" stroke-width="2" rx="5">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="20s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g transform="translate(800, 90)" opacity="0.4">
+    <polygon points="0,-24 20.78,12 -20.78,12" fill="none" stroke="#3b82f6" stroke-width="2">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="25s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+
+  <g transform="translate(950, 100)" opacity="0.5">
+    <rect x="0" y="0" width="60" height="60" fill="none" stroke="#3b82f6" stroke-width="2" rx="4">
+      <animateTransform attributeName="transform" type="rotate" from="0 30 30" to="360 30 30" dur="20s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="15" y="15" width="30" height="30" fill="none" stroke="#06b6d4" stroke-width="2" rx="2">
+      <animateTransform attributeName="transform" type="rotate" from="360 15 15" to="0 15 15" dur="15s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 
   <!-- Name -->
   <text x="100" y="125"
@@ -48,19 +90,28 @@
         font-family="'Segoe UI', system-ui, sans-serif"
         font-weight="400"
         letter-spacing="0.5">
-    Indie Full-Stack Web Developer
+    Full-Stack Web Developer
   </text>
-  <!-- Geometric decoration -->
-  <g transform="translate(950, 100)" opacity="0.15">
-    <rect x="0" y="0" width="60" height="60" fill="none" stroke="#3b82f6" stroke-width="2" rx="4">
-      <animateTransform attributeName="transform" type="rotate" from="0 30 30" to="360 30 30" dur="20s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="15" y="15" width="30" height="30" fill="none" stroke="#06b6d4" stroke-width="2" rx="2">
-      <animateTransform attributeName="transform" type="rotate" from="360 15 15" to="0 15 15" dur="15s" repeatCount="indefinite"/>
-    </rect>
-  </g>
 
-  <!-- Bottom accent line -->
-  <rect x="0" y="297" width="1200" height="3" fill="url(#accentGradient)" opacity="0.8"/>
+  <!-- Animated dots -->
+  <circle cx="350" cy="50" r="5" fill="#3b82f6" opacity="0.6">
+    <animate attributeName="cy" values="50;60;50" dur="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="650" cy="200" r="5" fill="#06b6d4" opacity="0.6">
+    <animate attributeName="cy" values="200;190;200" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="1050" cy="180" r="4" fill="#3b82f6" opacity="0.5">
+    <animate attributeName="cy" values="180;190;180" dur="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Top accent line with animation -->
+  <rect x="0" y="0" width="1200" height="3" fill="url(#accentGradient)" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite"/>
+  </rect>
 
 </svg>
