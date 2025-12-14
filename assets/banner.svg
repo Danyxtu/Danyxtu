@@ -50,26 +50,6 @@
         letter-spacing="0.5">
     Indie Full-Stack Web Developer
   </text>
-
-  <!-- Tech stack tags -->
-  <g transform="translate(100, 215)">
-    <!-- React -->
-    <rect x="0" y="0" width="70" height="28" rx="4" fill="#1e293b" stroke="#61dafb" stroke-width="1.5"/>
-    <text x="35" y="19" fill="#61dafb" font-size="13" font-family="'Segoe UI', sans-serif" text-anchor="middle" font-weight="500">React</text>
-    
-    <!-- Node.js -->
-    <rect x="85" y="0" width="80" height="28" rx="4" fill="#1e293b" stroke="#10b981" stroke-width="1.5"/>
-    <text x="125" y="19" fill="#10b981" font-size="13" font-family="'Segoe UI', sans-serif" text-anchor="middle" font-weight="500">Node.js</text>
-    
-    <!-- PHP -->
-    <rect x="180" y="0" width="60" height="28" rx="4" fill="#1e293b" stroke="#8b7fc7" stroke-width="1.5"/>
-    <text x="210" y="19" fill="#8b7fc7" font-size="13" font-family="'Segoe UI', sans-serif" text-anchor="middle" font-weight="500">PHP</text>
-    
-    <!-- Laravel -->
-    <rect x="255" y="0" width="80" height="28" rx="4" fill="#1e293b" stroke="#ff2d20" stroke-width="1.5"/>
-    <text x="295" y="19" fill="#ff2d20" font-size="13" font-family="'Segoe UI', sans-serif" text-anchor="middle" font-weight="500">Laravel</text>
-  </g>
-
   <!-- Geometric decoration -->
   <g transform="translate(950, 100)" opacity="0.15">
     <rect x="0" y="0" width="60" height="60" fill="none" stroke="#3b82f6" stroke-width="2" rx="4">

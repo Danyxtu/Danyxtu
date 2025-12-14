@@ -8,7 +8,7 @@
 </h3>
 
 <p align="center">
-  Hi, I'm Danny 👋
+  Hi , I'm Danny,  
 </p>
 
 <hr>
