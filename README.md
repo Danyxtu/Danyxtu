@@ -1,4 +1,4 @@
-<img src='assets/banner.svg'>
+# <img src="assets/developer.svg" width='32px' height='32px' /> Danyxtu Dev
 
 <!--
 **Danyxtu/Danyxtu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
